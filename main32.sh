@@ -17,7 +17,7 @@ apt-get install crossbuild-essential-i386 lib32gcc-11-dev -y
 apt-get build-dep ./ -y -a i386
 
 # Build package
-dpkg-buildpackage -a i386
+dpkg-buildpackage -a i386 --no-sign
 
 # Move the debs to output
 cd ../
