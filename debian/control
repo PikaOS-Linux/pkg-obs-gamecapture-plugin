@@ -8,6 +8,6 @@ Homepage: https://github.com/nowrep/obs-vkcapture
 Package: obs-gamecapture-plugin	
 Architecture: linux-any
 Multi-Arch: same
-Depends: ${misc:Depends}, obs-studio [amd64]
+Depends: ${shlibs:Depends}, ${misc:Depends}, obs-studio [amd64]
 Description: OBS Linux Vulkan/OpenGL game capture
 
