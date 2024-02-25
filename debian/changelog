@@ -1,3 +1,9 @@
+obs-gamecapture-plugin (10:1.4.9-100pika1) pikauwu; urgency=medium
+
+  * Update to 1.4.9
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
 obs-gamecapture-plugin (10:1.4.3.git-99pika1) pikauwu; urgency=medium
 
   * Rebrand to PikaOS

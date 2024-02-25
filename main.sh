@@ -2,7 +2,7 @@
 set -e
 
 # Clone Upstream
-git clone https://github.com/nowrep/obs-vkcapture
+git clone https://github.com/nowrep/obs-vkcapture -b v1.4.9
 cp -rvf ./debian ./obs-vkcapture/
 cd ./obs-vkcapture
 
